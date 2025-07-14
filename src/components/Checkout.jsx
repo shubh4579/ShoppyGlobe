@@ -34,7 +34,7 @@ function Checkout() {
 
   return (
     <div className="max-w-xl mx-auto p-6 mt-5">
-      <h1 className="text-2xl font-bold mb-6">Checkout</h1>
+      <h1 className="text-2xl font-bold mb-6 mt-2">Checkout</h1>
 
       <div className="bg-red-200 rounded p-4 mb-6">
         <h2 className="text-xl font-semibold mb-4">Order Summary</h2>
