@@ -10,7 +10,7 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 //these components load only when user wants to visits that page
 const ProductList = lazy(() => import("./components/ProductList.jsx"));
-const Cart = lazy(() => import("./components/cart.jsx"));
+const Cart = lazy(() => import("./components/Cart.jsx"));
 const Checkout = lazy(() => import("./components/Checkout.jsx"));
 const ProductDetails = lazy(() => import("./components/ProductDetails.jsx"));
 //error component shows when something went wrong with routing
