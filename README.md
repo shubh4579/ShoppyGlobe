@@ -1,12 +1,56 @@
-# React + Vite
+## ShoppyGlobe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShoppyGlobe is a modern e-commerce single-page application built using **React**, **Redux Toolkit**, and **Vite**. It allows users to browse products, view detailed product information, add/remove items from a shopping cart, and proceed to checkout with a basic shipping form.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Product listing with live search filter
+- Product detail page
+- Add to / Remove from cart functionality
+- Quantity update in cart
+- Checkout page with dummy form
+- Toast notifications for user actions
+- Responsive and clean UI with Tailwind CSS
+- Redux Toolkit for global state management
+- Custom `useFetch` hook for API data fetching
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Technology           | Usage                       |
+| -------------------- | --------------------------- |
+| **React**            | Frontend framework          |
+| **Redux Toolkit**    | State management            |
+| **Tailwind CSS**     | Styling                     |
+| **React Router DOM** | Page routing                |
+| **Vite**             | Fast development build tool |
+| **Heroicons**        | Icon set                    |
+| **React Hot Toast**  | Toast notifications         |
+| **DummyJSON API**    | Fake product data source    |
+
+---
+
+---
+
+## 🔧 Installation and Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/shubh4579/ShoppyGlobe.git
+   cd ShoppyGlobe
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the app:**
+   ```bash
+   npm run dev
+   ```
+4. **Open in Browser:**
+   ```bash
+   http://localhost:5173
+   ```
